@@ -5,7 +5,7 @@ OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
 class Centralize
 
   def initialize(location, entity, center_slice=1, precision=0.001)
-    @apikey          = 'AIzaSyAQALvEod8LCxEbScaeOvx2cdJLWoQpHwE'
+    @apikey          = <API KEY>
     @search_location = location
     @search_entity   = entity
     @center_slice    = center_slice
